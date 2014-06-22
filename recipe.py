@@ -1,6 +1,8 @@
 # coding: utf-8
+import sys
 
-recipe_records = open("recipe-records.txt", "r").readlines();
+file_name      = sys.argv[1]
+recipe_records = open(file_name, "r").readlines();
 
 for recipe in recipe_records:
 	print recipe.rstrip()
