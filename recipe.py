@@ -1,3 +1,6 @@
 # coding: utf-8
 
-print u"オムライス"
+recipe_records = open("recipe-records.txt", "r").readlines();
+
+for recipe in recipe_records:
+	print recipe
