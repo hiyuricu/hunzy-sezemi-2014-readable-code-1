@@ -13,4 +13,4 @@ python recipe.py
 >>> オムライス
 ```
 
-Python2系で動きます
+Python2系で動きます。外部ファイル「recipe-records.txt」にレシピデータを保存します。
